@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{366FC01E-3A37-4AD6-BEA8-5CF6624B7E36}|ex1\\ex1.vcxproj|C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\ex1\\a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{366FC01E-3A37-4AD6-BEA8-5CF6624B7E36}|ex1\\ex1.vcxproj|solutionrelative:ex1\\a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6B69CCBB-AA8F-4A85-BC31-A0960346B838}|ex2\\ex2.vcxproj|C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\ex2\\ex2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B69CCBB-AA8F-4A85-BC31-A0960346B838}|ex2\\ex2.vcxproj|solutionrelative:ex2\\ex2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "a.c",
-              "DocumentMoniker": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\ex1\\a.c",
-              "RelativeDocumentMoniker": "ex1\\a.c",
-              "ToolTip": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\ex1\\a.c",
-              "RelativeToolTip": "ex1\\a.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Title": "ex2.c",
+              "DocumentMoniker": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\ex2\\ex2.c",
+              "RelativeDocumentMoniker": "ex2\\ex2.c",
+              "ToolTip": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha1\\ex2\\ex2.c",
+              "RelativeToolTip": "ex2\\ex2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-09T09:58:18.045Z",
+              "WhenOpened": "2025-03-12T17:41:48.214Z",
               "EditorCaption": ""
             }
           ]
