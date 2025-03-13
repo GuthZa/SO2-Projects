@@ -6,7 +6,7 @@
 
 #define TAM 100
 
-int _tmain(int argc, TCHAR** argv) {
+static int _tmain(int argc, TCHAR** argv) {
 
 #ifdef _UNICODE
 	(void) _setmode(_fileno(stdout), _O_WTEXT);
@@ -15,8 +15,38 @@ int _tmain(int argc, TCHAR** argv) {
 #endif
 
 	TCHAR str[TAM];
-	DWORD res;
+	DWORD res = 0;
+	BOOL processReturn;
+	STARTUPINFO si;
+	PROCESS_INFORMATION pi;
 
+	ZeroMemory(&si, sizeof(si));
+	// These are equal
+	// memset(&si, 0, sizeof(si));
+	si.cb = sizeof(si);
+
+	do
+	{
+		_tprintf_s(_T("Programa a executar:"));
+		_fgetts(str, TAM, stdin);
+
+		str[_tcslen(str) - 1] = '\0';
+
+		_tprintf_s(_T("Vou executar o programa %s\n"), str);
+		processReturn = CreateProcess(NULL, str, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
+
+		WaitForSingleObject(pi.hProcess, INFINITE);
+		GetExitCodeProcess(pi.hProcess, &res);
+
+		CloseHandle(pi.hProcess);
+		CloseHandle(pi.hThread);
+
+		_tprintf_s(_T("Eu PID=%d, criei o filho %d... terminou com %d\n"), GetCurrentProcessId(), pi.dwProcessId, res);
+
+	} while (_tcscmp(_T("fim"), str) != 0);
+
+	//Ex5 a)
+	/*
 	res = GetModuleFileName(NULL, str, TAM);
 	if (res != 0) {
 		//Shows the full path
@@ -24,5 +54,6 @@ int _tmain(int argc, TCHAR** argv) {
 	}
 
 	_tprintf(_T("Executável: \"%s\"\n"), argv[0]);
+	*/
 	return 0;
 }
