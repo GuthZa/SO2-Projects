@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B23E428B-5000-41AB-B367-DA06C9BB3116}|ex6\\ex6.vcxproj|C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex6\\ex6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B23E428B-5000-41AB-B367-DA06C9BB3116}|ex6\\ex6.vcxproj|solutionrelative:ex6\\ex6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51A8B9AD-6132-4FA6-901F-6EB6FA389D32}|ex3\\ex3.vcxproj|C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex3\\ex3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{51A8B9AD-6132-4FA6-901F-6EB6FA389D32}|ex3\\ex3.vcxproj|solutionrelative:ex3\\ex3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3417B26-9B9F-4983-AB0B-17163FCE5B90}|ex1\\ex1.vcxproj|C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex1\\a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E3417B26-9B9F-4983-AB0B-17163FCE5B90}|ex1\\ex1.vcxproj|solutionrelative:ex1\\a.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -27,15 +35,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ex6.c",
+              "DocumentMoniker": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex6\\ex6.c",
+              "RelativeDocumentMoniker": "ex6\\ex6.c",
+              "ToolTip": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex6\\ex6.c",
+              "RelativeToolTip": "ex6\\ex6.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-17T16:37:24.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ex3.c",
+              "DocumentMoniker": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex3\\ex3.c",
+              "RelativeDocumentMoniker": "ex3\\ex3.c",
+              "ToolTip": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex3\\ex3.c",
+              "RelativeToolTip": "ex3\\ex3.c",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAIcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-17T15:44:57.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "a.c",
               "DocumentMoniker": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex1\\a.c",
               "RelativeDocumentMoniker": "ex1\\a.c",
               "ToolTip": "C:\\Users\\Wisura\\Desktop\\Classes\\SO2\\SO2-Projects\\ficha4\\ex1\\a.c",
               "RelativeToolTip": "ex1\\a.c",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwCkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAUwCkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T15:47:56.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T15:47:56.265Z"
             }
           ]
         }
