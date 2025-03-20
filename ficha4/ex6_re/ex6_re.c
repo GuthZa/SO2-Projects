@@ -48,7 +48,7 @@ DWORD WINAPI SumPairs(LPVOID lpParam) {
         ResetEvent(pdt->hEvent);
         block = *pdt->pBlock;
         (*pdt->pBlock)++;
-        SetEvent(pdt->hEvent);
+        SetEvent(pdt->hEvent); 
         lowerBound = (block * BLOCK_SIZE) + 1;
         upperBound = (block + 1) * BLOCK_SIZE;
         _tprintf_s(TEXT("%d ... %d\n"), lowerBound, upperBound);
@@ -60,9 +60,7 @@ DWORD WINAPI SumPairs(LPVOID lpParam) {
             }
         }
         Sleep(3000);
-        _tprintf_s(_T("\n"));
     }
-
     ExitThread(0);
 }
 
@@ -132,7 +130,7 @@ int _tmain(int argc, TCHAR** argv) {
 
     duration = stopClock(clockticks);
 
-    _tprintf(TEXT("\nSeconds = %f\n"), duration);
+    _tprintf(TEXT("Seconds = %f\n"), duration);
     _tprintf(TEXT("\nSum = %d\n"), result);
 
     // Close thread handles
